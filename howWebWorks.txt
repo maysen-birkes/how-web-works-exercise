@@ -1,0 +1,34 @@
+How the Web Works Exercise
+
+Part One: Solidify Terminology
+
+  1. What is HTTP?
+    - Hyper Text Transfer Protocol is how we get data from a server. Or how we send data to a server.
+
+  2. What is a URL?
+    - URL is short for Uniform Resource Locator. It is an address we use to access some sort of website or resource from the internet.
+
+  3. What is DNS?
+    - DNS stanst form Domain Name System. It converts readable words into an IP address.
+
+  4. What is a query string?
+    - A query string is a way to pass in key-value pairs into the URL. Usually in the format ?x=1.
+
+  5. What are two HTTP verbs and how are they different?
+    - GET: is used to get data from the server
+    - POST: is used to post/send information to a server
+
+  6. What is an HTTP request?
+    - An HTTP request follows HTTP protocol to send a request from your computer to a server. For example it will send a request for the HTML when you go to google.com.
+
+  7. What is an HTTP response?
+    - An HTTP response is the response your computer recieves from the server.
+
+  8. What is an HTTP header? Give a couple examples of request and response headers you have seen.
+    - An HTTP header gives the browser additional information about the request or response that is sent. For example. For requests it can be the host, cache, and cookies. For response it can be the content type, cache-control, and date/time.
+
+  9. What happens when you type a URL into the browser?
+    - The browser will take the URL and convert it into a IP address using DNS.
+    - Your browser then makes a request to that IP address to gather the content infotmation such as the HTML/CSS. 
+    - The server then responds back to the browser with the information that has been requested. The creating a DOM from the HTML that was requested, also finds any other resources such as any images on the page, or the CSS for the styling, and the JS.
+    - For all the other requests a seperate HTTP request is sent to find them.
